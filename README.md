@@ -1,2 +1,2 @@
-# ToDoApp
-ToDoApp in Flutter
+# BlogApp
+BlogApp in Flutter

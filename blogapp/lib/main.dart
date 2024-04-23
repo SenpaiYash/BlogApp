@@ -1,3 +1,4 @@
+import 'package:blogapp/view/blog_app_materialApp.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -41,13 +42,8 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('sup'),
-      ),
-      body: const Center(
-        child: Text('add'),
-      ),
+    return const MaterialApp(
+      home: blog_app_MaterialPage(),
     );
   }
 }
